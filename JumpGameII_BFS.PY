@@ -1,3 +1,6 @@
+# TC: O(N^M) where N is the input array size and M is the maximum ways we are exploring at an index to reach the last index.
+# SC: O(N) where N is the size of the queue.
+
 class Solution:
     def jump(self, nums: List[int]) -> int:
         if not nums or len(nums) == 0: 
