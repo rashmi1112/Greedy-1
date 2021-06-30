@@ -1,5 +1,5 @@
-// TC: O(N) as we will be traversing all the elements in the given array
-// SC: O(N) since we store the temporary result in an array of size equal to the input array.
+#  TC: O(N) as we will be traversing all the elements in the given array
+#  SC: O(N) since we store the temporary result in an array of size equal to the input array.
 
 class Solution:
     def candy(self, ratings: List[int]) -> int:
